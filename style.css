@@ -1,0 +1,142 @@
+/* css reset */
+*{
+    box-sizing: border-box;
+}
+/* body default style */
+body{
+    margin: 0;
+    background: url(images/bg-intro-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: hsl(0, 100%, 74%) ;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+   
+}
+/* main section style */
+main{
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+    min-height: 100vh;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 1rem;
+
+}
+/* conten div */
+.content{
+    width: 500px;
+    color:white;
+    margin: 2rem;
+    
+}
+.content__title{
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 1;
+}
+.content__para{
+    line-height: 1.5;
+    
+}
+/* input form div with two fiv */
+.input{
+    background-color: white;
+  padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-radius: .5rem;
+    box-shadow: 0 8px 15px rgb(92, 91, 91);
+}
+.form{
+    width: 600px;
+    flex-direction: column;
+    display: flex;
+}
+/* bule top div */
+.topdiv{
+    background-color: hsl(248, 32%, 49%);
+    color: white;
+    padding: .5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    border-radius: .5rem;
+    box-shadow: 0 7px 4px hsl(248, 32%, 49%);
+}
+/* default style of input */
+input{
+    width: 100%;
+   margin: 1rem;
+   padding: 1rem;
+   margin-left: 0%;
+   font-size: inherit;
+   font-family: inherit;
+}
+.topdiv p{
+    font-weight: 700;
+}
+span{
+    font-weight:400;
+    opacity: .5;
+
+}
+/* button style */
+.input__submit button{
+    width: 100%;
+    padding: 1rem;
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    font-size: inherit;
+    border: none;
+   cursor: pointer;
+   border-bottom: 5px solid hsl(154, 59%, 41%);
+   border-radius: .5rem;
+ 
+  text-transform: uppercase;
+  font-weight: 500;
+ 
+ 
+}
+.input__submit button:hover,.input__submit button:focus{
+    background-color: hsl(154, 59%, 61%);
+    border-bottom: 5px solid hsl(154, 59%, 51%);
+
+}
+.input__terms p{
+    font-size: .8rem;
+    color: hsl(246, 25%, 77%);
+    
+}
+.input__terms{
+    align-self: center;
+    text-align: center;
+}
+.redspan{
+    color: hsl(0, 100%, 74%) ;
+    opacity: 1;
+}
+/* erro style */
+.error{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    display: none;
+   
+}
+.error p{
+    margin: 0%;
+    margin-right: -2rem;
+    margin-top: -1rem;
+    color: hsl(0, 100%, 74%);
+}
+.errimg{
+  margin-top: -6rem;
+  margin-right: 1rem;
+  
+}
+.error-display{
+    display: flex;
+}
