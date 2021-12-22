@@ -1,4 +1,4 @@
-/* css reset */
+/* css reset */ v2 small fix
 *{
     box-sizing: border-box;
 }
@@ -39,6 +39,7 @@ main{
 }
 .content__para{
     line-height: 1.5;
+    
 }
 /* input form div with two fiv */
 .input{
@@ -73,12 +74,12 @@ input{
    margin-left: 0%;
    font-size: inherit;
    font-family: inherit;
- 
- 
-  
+}
+.topdiv p{
+    font-weight: 700;
 }
 span{
-    
+    font-weight:400;
     opacity: .5;
 
 }
@@ -94,7 +95,8 @@ span{
    border-bottom: 5px solid hsl(154, 59%, 41%);
    border-radius: .5rem;
  
-  
+  text-transform: uppercase;
+  font-weight: 500;
  
  
 }
@@ -105,6 +107,8 @@ span{
 }
 .input__terms p{
     font-size: .8rem;
+    color: hsl(246, 25%, 77%);
+    
 }
 .input__terms{
     align-self: center;
@@ -112,6 +116,7 @@ span{
 }
 .redspan{
     color: hsl(0, 100%, 74%) ;
+    opacity: 1;
 }
 /* erro style */
 .error{
